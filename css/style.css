@@ -1,0 +1,465 @@
+@font-face {
+    font-family: 'Harmony';
+    src: url('../fonts/Harmony.otf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('../fonts/Harmony.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    background: #FFF8EF;
+    overflow-x: hidden;
+}
+.navbar.navbar-default {
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    
+}
+b{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 112.7%;
+    color: #352514;
+}
+
+.navbar-toggle{
+    top: -15px;
+    border: 0;
+    background-color: transparent;
+    
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:  #251A08;
+    top: 78px;
+}
+.navbar.navbar-default .navbar-collapse {
+    border: 0;  
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #352514;
+    
+}
+.navbar {
+    background: #FFF8EF;
+    padding: 75px;
+  }  
+.navbar-brand {
+    position: absolute;
+    width: 61px;
+    height: 65px;
+    left: 94px;
+    top: 28px;
+  }
+  
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    top: -5px;
+    padding: 9px 10px !important;
+  }
+  .header{
+      background: #FFF8EF;
+  }
+
+  #nav1{
+    position: absolute;
+    width: 89px;
+    height: 23px;
+    left: 218px;
+    top: 60px;
+    text-decoration: none;
+    
+  }
+  #nav2{
+    position: absolute;
+    width: 86px;
+    height: 23px;
+    left: 336px;
+    top: 60px;
+    color: #352514;
+    
+  }
+#nav3{
+    position: absolute;
+    width: 95px;
+    height: 23px;
+    left: 454px;
+    top: 60px;
+    
+}
+#nav4{
+    position: absolute;
+    width: 163px;
+    height: 23px;
+    left: 580px;
+    top: 60px;
+    
+}
+.navbar-nav li{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    line-height: 112.7%;
+    color: #352514;
+
+}
+a{ 
+    text-decoration: none;
+    color: #352514;
+
+}
+a:hover{
+    text-decoration: none;
+    color: #352514;
+    
+}
+a, a:hover,a:visited, a:focus {
+    text-decoration:none;
+}
+.work-1{
+    position: absolute;
+    width: 160px;
+    height: 23px;
+    left: 1600px;
+    top: 49px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 112.7%;
+    /* identical to box height, or 23px */
+    display: flex;
+    align-items: center;
+    text-align: right;
+    
+    color: #34240C;
+    
+}
+.work-2{
+    position: absolute;
+width: 109px;
+height: 20px;
+left: 1651px;
+top: 75px;
+
+font-family: Montserrat;
+
+font-weight: 500;
+font-size: 18px;
+line-height: 112.7%;
+/* or 20px */
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #34240C;
+
+}
+.reactangle{
+    
+position: absolute;
+width: 664.26px;
+height: 2000.12px;
+left: 800.37px;
+top: 60.32px;
+
+background: #000000;
+transform: rotate(50deg);
+}
+.B{
+    background-image: none;
+    position: absolute;
+    width: 619px;
+    height: 902px;
+    left: 80px;
+    top: 78px;    
+}
+.main-balu{
+    position: absolute;
+    width: 653px;
+    height: 81px;
+    left: 967px;
+    top: 431px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 72px;
+line-height: 112.7%;
+/* or 81px */
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #322417;
+}
+
+.main-con{
+    
+position: absolute;
+width: 555px;
+height: 82px;
+left: 1000px;
+top: 530px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 112.7%;
+/* or 41px */
+text-align: right;
+color: #322417;
+}
+
+.btn-1{
+    position: absolute;
+    width: 176px;
+    height: 50px;
+    left: 1378px;
+    top: 623px;
+    border: none;
+    background: #F3B516;
+    border-radius: 25px;
+}
+.icon-1{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 255px;
+    top: 820px;
+    
+    opacity: 0.7;
+}
+.icon-2{
+    
+position: absolute;
+width: 60px;
+height: 60px;
+left: 335px;
+top: 820px;
+
+opacity: 0.7;
+}
+.icon-3{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 415px;
+    top: 820px;
+    
+    opacity: 0.7;
+}
+.bbd{
+    position: absolute;
+width: 179px;
+height: 72px;
+left: 1378px;
+top: 780px;
+
+font-family: Harmony;
+font-size: 64px;
+line-height: 112.7%;
+/* or 72px */
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+.about{
+    
+position: absolute;
+width: 77px;
+height: 20px;
+left: 882px;
+top: 920px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 112.7%;
+/* or 20px */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+.ar_dw{
+    position: absolute;
+width: 80px;
+height: 13px;
+left: 882px;
+top: 948px;
+opacity: 0.5;
+}
+.about-h1{
+    position: absolute;
+width: 377px;
+height: 82px;
+left: 279px;
+top: 1200px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 112.7%;
+/* or 41px */
+
+color: #343433;
+}
+.about-p{
+    position: absolute;
+    width: 377px;
+    height: 82px;
+    left: 282px;
+    top: 1230px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 112.7%;
+    /* or 41px */
+    
+    color: #343433;
+}
+.barber-png{
+    position: absolute;
+width: 350px;
+height: 373px;
+left: 95px;
+top: 1325px;
+}
+.barber-p{
+    position: absolute;
+width: 516px;
+height: 302px;
+left: 340px;
+top: 1321px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 130.7%;
+/* or 24px */
+
+color: #343433;
+white-space: pre;
+}
+.man-1{
+    position: absolute;
+width: 764px;
+height: 764px;
+left: 989px;
+top: 1235px;
+z-index: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 375px) {
+    body{
+
+background: #FFF8EF;
+    }
+    .work-1{
+        display: none;
+    }
+    .work-2{
+        display: none;
+    }
+    .icon-bar{
+        display: none;
+    }
+    .navbar-toggle {
+        position: absolute;
+        width: 25px;
+        height: 16px;
+        left: 334px;
+        top: 21px;
+
+    }
+    .navbar-brand{
+        position: absolute;
+        width: 39px;
+        height: 41px;
+        left: 1px;
+        top: 0px;
+
+    }
+    .B{
+        position: absolute;
+        width: 343px;
+        height: 498px;
+        left: 16px;
+        top: 66px;
+    }
+    .main-balu{
+        position: absolute;
+        width: 313px;
+        height: 108px;
+        left: 1px;
+        top: 477px;
+
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 112.7%;
+        /* or 54px */
+        display: flex;
+        text-align: left;
+        color: #322417;
+        margin-left: 40px;
+    }
+    .main-con{
+        display: none;
+    }
+    .btn-1{
+        
+        position: absolute;
+        width: 176px;
+        height: 50px;
+        left: 99px;
+        top: 730px;
+
+        background: #F3B516;
+        border-radius: 25px;
+    }
+    .bbd{
+        
+position: absolute;
+width: 135px;
+height: 54px;
+left: 221px;
+top: 615px;
+
+font-family: Harmony;
+font-size: 48px;
+line-height: 112.7%;
+/* identical to box height, or 54px */
+display: flex;
+align-items: center;
+
+color: #000000;
+    }
+}
