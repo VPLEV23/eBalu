@@ -19,6 +19,7 @@
 }
 
 .background-middle {
+    z-index: -1;
     background-color: rgb(14, 14, 14);
     width: 3000px;
     height: 800px;
@@ -27,14 +28,14 @@
     overflow: hidden;
 }
 .man-1-crop {
-    z-index: 2;
-    position: absolute;
+    position: relative;
     width: 2600px;
     height: 2500px;
     border-radius: 1350px;
-    background-color: #251A08;
-    left: 0px;
-    top: 25px
+    background-color: red;
+    left: -100px;
+    top: 25px;
+    z-index: -1;
 }
 
 .background-bottom {
