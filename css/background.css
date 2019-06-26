@@ -1,0 +1,55 @@
+.background-rectangle {
+    position: absolute;
+    float: left;
+    position: absolute;
+    transform: rotate(-30deg);
+}
+
+.background-top {
+    background: url(../img/BG1st.png) 0 0 repeat;
+    width: 3000px;
+    height: 1200px;
+    left: -1000px;
+    top: -300px;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+.background-middle {
+    background-color: rgb(14, 14, 14);
+    width: 3000px;
+    height: 800px;
+    left: -500px;
+    top: 1650px;
+    overflow: hidden;
+}
+.man-1-crop {
+    z-index: 2;
+    position: absolute;
+    width: 2600px;
+    height: 2500px;
+    border-radius: 1350px;
+    background-color: #251A08;
+    left: 0px;
+    top: 25px
+}
+
+.background-bottom {
+    background-color: #251A08;
+    width: 4000px;
+    height: 800px;
+    left: -600px;
+    top: 3300px;
+}
+
+.background-canvas {
+    position: absolute;
+    overflow: hidden;
+    margin: 0;
+    height:3500px;
+    width: 1900px;
+    
+}
